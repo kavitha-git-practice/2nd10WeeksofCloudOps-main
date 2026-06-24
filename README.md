@@ -134,7 +134,7 @@ sudo systemctl reload nginx
 On the machine where you build the React app (or directly on the nginx server):
 
 ```bash
-
+sudo dnf install -y nodejs
 npm install
 
 npm run build
