@@ -7,7 +7,7 @@ on:
 
 
 env:
-  PROJECT_ID: playground-s-11-0d817a7e
+  PROJECT_ID: '${{ secrets.projectid }}'
   REGION: us-central1
   REPOSITORY: fullstack
 
