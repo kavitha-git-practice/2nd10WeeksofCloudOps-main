@@ -15,13 +15,13 @@ services:
 
   backend:
     build:
-      context: ./backend
+      context: ./44.251.141.133    
       dockerfile: Dockerfile
     container_name: backend-app
     ports:
       - "84:80"
     environment:
-      DB_HOST: kavitha-db.cn4ugcqmu5zd.us-east-1.rds.amazonaws.com
+      DB_HOST: kavitha-db.cz8gwes2icp0.us-west-2.rds.amazonaws.com
       DB_USER: admin
       DB_PASSWORD: Kavithareddy
       PORT: 3306
